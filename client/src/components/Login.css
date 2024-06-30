@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+  margin: auto;
+  padding: auto;
+  font-family: 'Poppins',sans-serif;
+  justify-content: center;
+  
+}
+.hex{
+    padding-top: 0em;
+    
+align-content: center;
+/* width: 30em; */
+text-align: center;
+align-items: center;
+justify-content: center;
+
+}
+/*body{
+
+ margin: 0; 
+  
+
+   background: linear-gradient(#fab380,#f3947a);  
+}*/
+
+.login-form{
+  /* position: relative; */
+  /* justify-content: center; */
+  width: 30em;
+
+  height: auto;
+  background: rgba(255, 232, 213, 0.347);
+  padding: 2em 2em 1em;
+  box-sizing: border-box;   
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: inset 0 0 1px #272727;
+}
+.text{
+  font-size: 30px;
+  color: #6e430f;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+/* form{
+
+} */
+form .field{
+  margin-top: 2em;
+  display: flex;
+}
+.field .fas{
+  height: 3em;
+  width: 3em;
+  color: #1c1b1b;
+  font-size: 20px;
+  line-height: 4em;
+  border: 1px solid #444;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  background: linear-gradient(#b6afaf90,#786e6e);
+}
+.field input,form button{
+  height: 3.15em;
+  width: 20em;
+  outline: none;
+  font-size: 19px;
+  color: #868686;
+  padding: 0 2em;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #444;
+  caret-color: #283628;
+  background: linear-gradient(#fdd9aa7e,#b4a966);
+}
+input:focus{
+  color: #587258;
+  box-shadow: 0 0 5px rgba(0,255,0,.2),
+              inset 0 0 5px rgba(185, 176, 125, 0.1);
+  background: linear-gradient(#cbc491,#8b7864);
+  animation: glow .8s ease-out infinite alternate;
+}
+@keyframes glow {
+   0%{
+    border-color: #b95646;
+    box-shadow: 0 0 5px rgba(0,255,0,.2),
+                inset 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+   100%{
+    border-color: rgb(220, 97, 35);
+    box-shadow: 0 0 20px rgba(216, 119, 29, 0.6),
+                inset 0 0 10px rgba(232, 93, 7, 0.4);
+  }
+}
+button{
+  margin-top: 1em;
+  border-radius: 5px!important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+button:hover{
+  color: #bc8150;
+  border: 1px solid #996833;
+  box-shadow: 0 0 5px rgba(168, 123, 59, 0.3),
+              0 0 10px rgba(194, 161, 62, 0.2),
+              0 0 15px rgba(0,255,0,.1),
+              0 2px 0 rgb(178, 138, 77);
+}
+.link{
+  margin-top: 3em;
+  color: #141111;
+}
+.link a{
+  color: #995f33;
+  text-decoration: none;
+}
+.link a:hover{
+  text-decoration: underline;
+}

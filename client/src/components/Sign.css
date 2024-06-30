@@ -1,0 +1,56 @@
+.form-label{
+width: 30%;
+}
+.to{
+    padding-top: 3em;
+    display: flex;
+flex-direction: column;
+
+width: 50%;
+
+}
+.col{
+    /* float: left; */
+display: flex;
+flex-direction: row;
+width: 100%;
+
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    /* float: left; */
+    
+}
+.row{
+    padding-top: 2em;
+    /* display: flex; */
+    flex-direction: row;
+    /* float: left; */
+
+}
+.form-control{
+    
+width: 70%;
+}
+.col-md-12{
+    
+    
+}
+.try{
+padding-right: 4em;
+padding-top: 1em;
+padding-bottom: 1em;
+}
+.try1{
+    
+    /* padding-left: 1em; */
+    display: flex;
+    flex-direction: row;
+    padding-left: 11em;
+    /* float: left; */
+}
+.try2{
+/* padding-left: .5em;
+padding-right: 1.5em; */
+}

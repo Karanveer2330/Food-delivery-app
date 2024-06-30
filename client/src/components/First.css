@@ -1,0 +1,31 @@
+
+.gh{
+    
+    padding: auto;
+    border: 2em; 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+    
+}
+.card{
+    border: none;
+    width:45%;
+}
+.card-text{
+    color: rgb(0, 0, 0);}
+    .card-title{
+        padding-top: 0;
+margin-top: 0;
+
+}
+.icon-link{
+    
+border: none;}
+
+.Lo{
+padding-top:4em;
+padding-bottom: 2em;
+}

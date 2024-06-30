@@ -1,0 +1,24 @@
+#gh{
+color:rgba(223, 196, 196, 0) ;
+padding: 2em;
+
+}
+.carousel-item{
+opacity: 95%;
+
+
+}
+.box{
+    padding: 2em 2em 2em 2em;
+    box-sizing: border-box;
+    border-style: double;
+    border-color: brown;
+
+    border-radius: 2em 2em;
+
+}
+.caro{
+    padding-top: 1em;
+padding-bottom: 3em;
+;
+}

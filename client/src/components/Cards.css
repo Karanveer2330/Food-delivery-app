@@ -1,0 +1,19 @@
+
+.gh{
+    
+    padding: auto;
+    border: 2em; 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+    
+}
+
+.card{
+    width:45%;
+    
+}
+.card-text{
+color: rgb(0, 0, 0);}

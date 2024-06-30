@@ -1,0 +1,87 @@
+.card-title1{
+align-content: end;
+padding-top: 3em;
+}
+.card-img{
+padding-left: 0;
+}
+
+.cca{
+    border: 2px;
+    padding-top: 2em;
+    margin: 0;
+    padding-bottom: 2em;
+    display:flex ;
+    
+    padding-left: 0;
+
+    box-sizing: border-box;
+    border-style:hidden;
+    border-color: brown;
+background-color: rgba(0, 124, 233, 0.082);
+    border-radius: 2em 2em;
+}
+.bba{
+    display:flex ;
+padding-left: 0;
+}
+
+.card1{
+  margin: 0;
+  float: right;
+
+}
+
+  h1 {
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.5em;
+    color: #000000;
+  }
+  .container1 {
+    display: flex; 
+    flex-direction: row;
+width: 40%;
+background-color: #a7242400;
+display: none;
+    /* justify-content: space-around; */
+     /* margin-top: 80px; */
+  }
+  .btns{
+    display: flex; 
+    flex-direction: row;
+  width: 20%;}
+  .btns button {
+    /* width: 30px; */
+    /* padding: 15px 0; */
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    /* cursor: pointer; */
+  }
+  button.inc,
+  button.dec {
+    background-color: #08131e0f;
+    color: #8b0f0f8f;
+    height: 1.5em;
+  }
+  .inc{
+  margin-top: 2px;
+  }
+
+  .dec{
+    margin-top: 2px;
+
+  }
+
+  #num{
+  width: 10em;
+  margin-left: 0;
+  margin-right: 0;
+  }
+
+  .btn
+  {
+    background-color: #08131e4b;
+  }

@@ -1,0 +1,29 @@
+#di{
+    background-color: rgb(255, 255, 255);
+    }
+    .bg{
+        background-color:#da4453 !important;
+        margin-top: 0px;
+    }
+    .bg{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .nav-link{
+        color: white;
+    }
+    
+    .nav-link a:hover{
+        color: rgb(147, 146, 146);
+    }
+    .container-fluid h3{
+        color: white;
+    }
+    
+    .zaika{
+        font-family: "Lucida Handwriting";
+    }
+    
+    
+    /* *{
+    } */

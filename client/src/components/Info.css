@@ -1,0 +1,20 @@
+.ri{
+display: flex;
+flex-direction: row;
+}
+.one{
+padding: 4em 0em 2em 4em;
+width: 50%;
+
+}
+.button{
+background: #ff662e7f;
+box-sizing: border-box;
+border: 200px;
+border-radius: 100%;
+
+  }
+  .two{
+  box-sizing: border-box;
+padding-right: 5em;
+  }

@@ -1,0 +1,28 @@
+
+    
+.footer{     
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 44px;
+    padding: 44px;
+    background-color: #002033;
+    border-radius: 70px;
+    border-color: black;
+    border : 2px solid black;
+    border-style: double;
+    border-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; 
+    margin-bottom: 0;
+    color: white;
+
+}
+
+.report{
+    color: white;
+}
+
+a:hover{
+    color: rgb(192, 192, 192);
+}

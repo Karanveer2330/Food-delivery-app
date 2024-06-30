@@ -1,0 +1,24 @@
+.he{
+    display: flex;
+    flex-direction: row;
+padding: 7em 10em;
+color: rgb(40, 48, 55);
+
+}
+.card{
+    background-color:#ed5565;
+    border-radius: 20px;
+    margin: 5px;
+}
+    
+.card-img-top{
+ padding-top:2em ;
+height: 300;
+width: 300;
+object-fit: cover;
+margin: 2px;
+/* border: 1px solid white; */
+}
+.card-text{
+    color: rgb(40, 48, 55);
+}

@@ -1,0 +1,115 @@
+
+#di{
+    background-color: rgba(224, 197, 197, 0.789);
+    }
+    body{
+        margin: 0;
+    
+        /* background: rgba(46, 172, 34, 0.371);  */
+      }
+    
+      .layer-2{
+      animation-direction: alternate-reverse;
+      animation-duration: 4s;
+      }
+      .layer-3{
+      animation-duration: 5s;
+      }
+      @keyframes animate {
+        0%{
+        transform: translateX(-50%);
+        }
+        100%{
+        transform: translateX(50%);
+        }
+      }
+      /* .hex{
+    
+    } */
+
+    .dev{
+ 
+    border-radius: 2em 2em;
+    }
+ 
+    
+    .but{
+        padding: 2em 2em 2em 2em;
+    display: flex;
+    flex-direction: row;
+
+    }
+    .ww{
+        padding: 2em 2em 2em 2em;
+    display: flex;
+    flex-direction: row;
+    }
+
+    .ee{
+    float:left;
+    width:100%;
+    }
+    .all{
+   
+        border: 2px;
+        padding-left: 2em;
+        padding-right: 2em;
+        box-sizing: border-box;
+        border-style: double;
+        border-color: brown;
+        border-bottom: 0;
+        border-radius: 2em;
+        border-bottom-left-radius:0;
+        border-bottom-right-radius: 0;
+    
+        padding-bottom: 10em;
+    }
+    .main{
+        border: 2px solid black;
+        margin: 50px;
+        padding: 20px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #101820e9;
+        color: white;
+        border-radius: 50px;
+    }
+
+    .main ul{
+        list-style-type: none;
+        text-align: left;
+        margin: 2px;
+        
+    }
+
+    .main ul li{
+        text-align: left;
+        padding: 5px;
+        
+    }
+/* 
+ .but{
+    border: 2px solid black;
+ } */
+
+ .card3{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 20px;
+    background-color: #F9E795;
+    color: rgb(0, 0, 0);
+ }
+
+ .card3 ul{
+    list-style-type: none;
+    text-align: left;
+    margin: 2px; 
+ }
+
+ .card3 ul li{
+    text-align: left;
+    padding: 5px;
+ }
